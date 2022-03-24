@@ -1,0 +1,359 @@
+.sales{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+
+  &__header{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+
+    &_title{
+      font-size: 2.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      @include phone{
+        font-size: 1.5rem;
+      }
+
+      &-box{
+        width: 15%;
+        display: flex;
+        align-items: center;
+
+        @include phone{
+          width: 40%;
+        }
+
+        @include tablet{
+          width: 25%;
+        }
+
+        @media(max-width: 500px){
+          width: 40%;
+        }
+      }
+
+      &_img{
+        width: 50px;
+        height: 50px;
+        display: none;
+
+        @include tablet-landscape{
+          display: flex;
+        }
+      }
+    }
+
+    &_line{
+      width: 65%;
+      height: 1px;
+      border: 1px solid #EDEEF2;
+      border-radius: 2px;
+
+      @include tablet{
+        width: 50%;
+      }
+
+      @include phone{
+        width: 30%;
+      }
+
+      @media(max-width: 500px){
+        width: 20%;
+      }
+    }
+
+    &_link{
+      display: flex;
+      justify-content: flex-end;
+      width: 15%;
+      font-size: 1.6rem;
+      text-decoration: underline;
+
+      @include tablet-landscape{
+        display: none;
+      }
+
+      @include phone{
+        width: 25%;
+        font-size: 1.2rem;
+      }
+    }
+
+    &_arrow{
+      display: none;
+      width: 7%;
+      height: 25px;
+      justify-content: space-between;
+
+      &-box{
+        width: 28px;
+        height: 28px;
+        border: 2px solid $color-blue-hawkes;
+        border-radius: 50%;
+
+        &:hover{
+          border: 2px solid $color-orange;
+        }
+
+        @include tablet{
+          display: none
+        };
+
+        &_tablet{
+          display: none;
+
+          @include tablet{
+            display: flex;
+            width: 28px;
+            height: 28px;
+            border: 2px solid $color-blue-hawkes;
+            border-radius: 50%;
+          };
+
+          @include phone{
+            display: none
+          };
+        }
+
+        &_phone{
+          display: none;
+
+          @include phone{
+            display: flex;
+            width: 28px;
+            height: 28px;
+            border: 2px solid $color-blue-hawkes;
+            border-radius: 50%;
+          };
+        }
+      }
+
+      &-left{
+        width: 100%;
+        height: 100%;
+        padding: 5px 8px;
+        transform: rotate(180deg);
+      }
+
+      &-right{
+        width: 100%;
+        height: 100%;
+        padding: 5px 8px;
+      }
+
+      @include tablet-landscape{
+        display: flex;
+      }
+
+      @include tablet{
+        width: 12%;
+      }
+
+      @include phone{
+        width: 20%;
+      }
+    }
+
+    @include tablet-landscape{
+      width: 95%;
+    }
+  }
+
+  &__wrapper{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+
+    @include tablet-landscape{
+      width: 95%;
+      justify-content: center
+    }
+
+    &_item{
+      position: relative;
+      width: 237px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid #E4E7EE;
+      border-radius: 12px;
+
+      &-box{
+        min-width: 27%;
+        display: flex;
+        justify-content: center;
+
+        @include tablet-landscape{
+          min-width: 25%;
+        }
+
+        @include tablet{
+          min-width: 33%;
+        }
+
+        @include phone{
+          min-width: 100%;
+        }
+      }
+
+      &-track{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        transition: .4s;
+
+        &-box{
+          width: 100%;
+          display: flex;
+          align-items: center;
+        }
+
+        @include tablet-landscape{
+          width: 100%;
+        }
+      }
+
+      &_img{
+        width: 154px;
+        height: 162px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: italic;
+        color: #606060;
+
+        & img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &_descr{
+        width: 235px;
+        padding: 2rem;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &-link{
+          font-size: 1.6rem;
+          font-weight: 500;
+          text-decoration: underline;
+        }
+
+        &-price{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          &_title{
+            font-size: 1.4rem;
+          }
+
+          &_new{
+            font-size: 2rem;
+          }
+
+          &_old{
+            font-size: 1.3rem;
+            color: $color-orange-light;
+            text-decoration: line-through;
+          }
+        }
+
+        &-button{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          &_orange{
+            padding: 8px 17px;
+            background: $color-orange;
+            border-radius: 7px;
+            border-bottom: 3px solid #C54818;
+            text-transform: uppercase;
+            color: $color-white;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+
+            &:hover{
+              background: #4673AC;
+              border-bottom: 3px solid #385985;
+            }
+
+            &_icon{
+              padding-right: 6px;
+            }
+
+            @include tablet-landscape{
+              padding: 6px 9px;
+            }
+
+            @include phone{
+              padding: 6px 17px;
+            }
+          }
+
+          &_link{
+            font-size: 1.3rem;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      &:hover{
+        border: 1px solid $color-orange;
+      }
+
+      &-label{
+        position: absolute;
+        left: 12px;
+        top: -6px;
+
+        &_text{
+          position: absolute;
+          left: 11px;
+          top: 11px;
+        }
+      }
+
+      @include tablet-landscape{
+        width: 227px;
+      }
+
+      @include phone{
+        width: 287px;
+      }
+    }
+
+    &_arrow{
+      z-index: 9999;
+      @include tablet-landscape{
+        display: none;
+      }
+
+      &-right{
+        position: absolute;
+        right: 0;
+      }
+    }
+    @include phone{
+      justify-content: center;
+    }
+  }
+}

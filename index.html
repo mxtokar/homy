@@ -1,0 +1,1990 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project_1</title>
+
+  <link rel="stylesheet" href="style/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__menu">
+      <ul class="header__menu_list" id="nav">
+
+      </ul>
+
+      <div class="menu__burger">
+        <div class="menu__burger_line">
+          <span class="menu__burger_line-item"></span>
+          <span class="menu__burger_line-item"></span>
+          <span class="menu__burger_line-item"></span>
+        </div>
+
+        <div class="menu__burger_name">
+          <span class="menu__burger_name-item">Меню</span>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="header__info">
+      <div class="header__info_region">
+        <div class="header__info_region-city">
+          <span>Ваш регион:</span>
+          <a href="#" class="header__info_region-city_item-second">Москва</a>
+        </div>
+
+        <div class="header__info_region-title">
+          <span>HO</span>
+          <div class="header__info_region-title_item-orange">MY</div>
+          <span>RU</span>
+        </div>
+
+        <div class="header__info_region-subtitle">
+          <div class="header__info_region-subtitle_item">оборудование и решения для voip</div>
+        </div>
+      </div>
+
+      <div class="header__info_contact">
+        <div class="header__info_contact_call">
+          <img src="img/call-border.svg" alt="call-border" class="header__info_contact_call-border">
+
+          <div class="header__info_contact_call-text">
+            <a href="#" class="header__info_contact_call-text-item">обратный</a>
+            <a href="#" class="header__info_contact_call-text-item">звонок</a>
+          </div>
+        </div>
+
+        <div class="header__info_contact_info">
+          <span class="header__info_contact_info-phone">+7 495 2-55-44-66</span>
+
+          <span>(пн-пт с 9 до 18 ч)</span>
+
+          <div>
+            <a href="#"><img src="img/icon-whatsapp.svg" alt="icon-whatsapp"></a>
+            <a href="#"><img src="img/icon-viber.svg" alt="icon-viber"></a>
+            <span>+7 903 111-11-11</span>
+          </div>
+
+          <a href="#" class="header__info_contact_info-link">info@homy.ru</a>
+
+          <div class="header__info_contact_info-skype-wrapper">
+            <a href="#" class="header__info_contact_info-skype-box"><img src="img/icon-skype.svg" alt="icon-whatsapp" class="header__info_contact_info-skype"></a>
+            <a href="#">skype-on.06</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__info_search">
+        <div class="header__info_search_title">
+          <img src="img/icon-rubles.svg" alt="icon-rubles">
+
+          <div class="header__info_search_title-items">
+            <span class="header__info_search_title-items_orange">voip решения</span>
+            <span>для экономных людей</span>
+          </div>
+        </div>
+
+        <div>
+          <form class="header__info_search-button">
+            <input type="text" placeholder="Поиск по сайту" class="header__info_search-button__input">
+            <button type="submit" class="header__info_search-button__submit">искать</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="header__info_purchase">
+        <div class="header__info_purchase-wrapper-mobile">
+          <a href="#"><img src="img/icon-search.svg" alt="icon-search" class="header__info_purchase-wrapper-mobile_img"></a>
+        </div>
+
+        <div class="header__info_purchase-wrapper-desctop">
+          <div class="header__info_purchase_login">
+            <a href="#" class="header__info_purchase_login-link header__info_purchase_login-link-1">Войти</a>
+            <a href="#" class="header__info_purchase_login-link">Личный кабинет</a>
+          </div>
+
+
+          <div class="header__info_purchase_basket">
+            <img src="img/icon-basket.svg" alt="icon-basket">
+
+            <div class="header__info_purchase_basket-text">
+              <span>корзина</span>
+
+              <div id="header-basket">
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="header__info_purchase_option">
+            <div class="header__info_purchase_option-fav">
+              <img src="img/icon-heart.svg" alt="icon-heart">
+
+              <span>Избранное</span>
+
+              <a href="#" class="header__info_purchase_option-link">7</a>
+            </div>
+
+
+
+            <div class="header__info_purchase_option-comparison">
+              <img src="img/icon-refresh.svg" alt="icon-refresh">
+
+              <span>Сравнение</span>
+
+              <a href="#" class="header__info_purchase_option-link">2</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="header__info_mobile">
+      <div class="header__info_mobile_region-wrapper">
+        <div class="header__info_region">
+          <div class="header__info_region-city">
+            <span>Ваш регион:</span>
+            <a href="#" class="header__info_region-city_item-second">Москва</a>
+          </div>
+
+          <div class="header__info_region-title">
+            <span>HO</span>
+            <div class="header__info_region-title_item-orange">MY</div>
+            <span>RU</span>
+          </div>
+        </div>
+
+
+        <div class="header__info_mobile_purchase">
+          <div class="header__info_mobile_purchase_login">
+            <a href="#" class="header__info_purchase_login-link">Личный кабинет</a>
+          </div>
+
+          <div class="header__info_mobile_purchase_basket">
+            <a href="#"><img src="img/icon-search.svg" alt="icon-search" class="header__info_purchase-wrapper-mobile_img"></a>
+            <div class="header__info_mobile_purchase_basket-box">
+              <a href="#"><img src="img/icon-basket.svg" alt="icon-basket" class="header__info_mobile_purchase_basket-img"></a>
+              <span class="header__info_mobile_purchase_basket-img-label">10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__info_mobile_contact">
+        <div class="header__info_mobile_contact_wrapper-left">
+          <span class="header__info_contact_info-phone">+7 495 2-55-44-66</span>
+
+          <div>
+            <a href="#"><img src="img/icon-whatsapp.svg" alt="icon-whatsapp"></a>
+            <a href="#"><img src="img/icon-viber.svg" alt="icon-viber"></a>
+            <span>+7 903 111-11-11</span>
+          </div>
+        </div>
+
+        <div class="header__info_mobile_contact_wrapper-right">
+          <a href="#" class="header__info_contact_info-link">info@homy.ru</a>
+
+          <div class="header__info_contact_info-skype-wrapper">
+            <a href="#" class="header__info_contact_info-skype-box"><img src="img/icon-skype.svg" alt="icon-whatsapp" class="header__info_contact_info-skype"></a>
+            <a href="#">skype-on.06</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="header__navbar">
+      <button class="header__navbar_link-icon header__navbar_link-icon_left">
+        <img src="img/icon-arrow_left.png" alt="icon-arrow">
+      </button>
+
+      <ul class="header__navbar_list">
+        <div class="header__navbar_menu-track">
+
+        </div>
+      </ul>
+
+      <button href="#" class="header__navbar_link-icon header__navbar_link-icon_right">
+        <img src="img/icon-arrow.svg" alt="icon-arrow">
+      </button>
+    </nav>
+  </header>
+
+  <section class="news">
+    <div class="news__header">
+      <div class="news__header-title">
+        <span>новости компании</span>
+
+        <hr class="news__header-title-line">
+      </div>
+
+      <div class="news__header-subtitle">
+        <span>более 2000 товаров от 40+ производителей в одном магазине. &nbsp;</span>
+        <a href="#" class="news__header-subtitle-link">Любые решения под ключ.</a>
+      </div>
+    </div>
+
+    <div class="news__wrapper">
+      <div class="news__wrapper_item">
+        <div class="article-first"></div>
+        <div class="article-second"></div>
+        <div class="article-third"></div>
+        <div class="article-fourth"></div>
+        <div class="article-fifth"></div>
+        <div class="news__wrapper_article" id="article-1">
+          <div class="news__wrapper_article-photo-wrapper">
+            <div class="news__wrapper_article-photo">
+              <div class="news__wrapper_article-photo_img">
+                <div class="article-img-box" id="article-photo_first">
+
+                </div>
+                <span class="news__wrapper_article-photo_label">01</span>
+              </div>
+
+              <span class="news__wrapper_article-photo_sub">октября</span>
+            </div>
+
+            <div class="news__wrapper_article-text" id="article-first_text">
+
+            </div>
+          </div>
+
+          <div class="news__wrapper_item-line-box">
+            <hr class="news__wrapper_item-line">
+          </div>
+        </div>
+
+
+        <div class="news__wrapper_article" id="article-2">
+          <div class="news__wrapper_article-photo-wrapper">
+            <div class="news__wrapper_article-photo">
+              <div class="news__wrapper_article-photo_img">
+
+                <div class="article-img-box" id="article-photo_second">
+
+                </div>
+
+                <span class="news__wrapper_article-photo_label">02</span>
+              </div>
+
+              <span class="news__wrapper_article-photo_sub">октября</span>
+            </div>
+
+            <div class="news__wrapper_article-text" id="article-second_text">
+
+            </div>
+          </div>
+
+          <div class="news__wrapper_item-line-box">
+            <hr class="news__wrapper_item-line">
+          </div>
+        </div>
+
+        <div class="news__wrapper_article" id="article-3">
+          <div class="news__wrapper_article-photo-wrapper">
+            <div class="news__wrapper_article-photo">
+              <div class="news__wrapper_article-photo_img">
+                <div class="article-img-box" id="article-photo_third">
+
+                </div>
+                
+                <span class="news__wrapper_article-photo_label">03</span>
+              </div>
+
+              <span class="news__wrapper_article-photo_sub">сентября</span>
+            </div>
+
+            <div class="news__wrapper_article-text" id="article-third_text">
+
+            </div>
+          </div>
+
+          <div class="news__wrapper_item-line-box">
+            <hr class="news__wrapper_item-line">
+          </div>
+        </div>
+
+        <div class="news__wrapper_article" id="article-4">
+          <div class="news__wrapper_article-photo-wrapper">
+            <div class="news__wrapper_article-photo">
+              <div class="news__wrapper_article-photo_img">
+                <div class="article-img-box" id="article-photo_fourth">
+
+                </div>
+
+                <span class="news__wrapper_article-photo_label">04</span>
+              </div>
+
+              <span class="news__wrapper_article-photo_sub">сентября</span>
+            </div>
+
+            <div class="news__wrapper_article-text" id="article-fourth_text">
+
+            </div>
+          </div>
+
+          <div class="news__wrapper_item-line-box">
+            <hr class="news__wrapper_item-line">
+          </div>
+        </div>
+
+        <div class="news__wrapper_article" id="article-5">
+          <div class="news__wrapper_article-photo-wrapper">
+            <div class="news__wrapper_article-photo">
+              <div class="news__wrapper_article-photo_img">
+                <div class="article-img-box" id="article-photo_fifth">
+
+                </div>
+
+                <span class="news__wrapper_article-photo_label">05</span>
+              </div>
+
+              <span class="news__wrapper_article-photo_sub">сентября</span>
+            </div>
+
+            <div class="news__wrapper_article-text" id="article-fifth_text">
+
+            </div>
+          </div>
+
+          <div class="news__wrapper_item-line-box">
+            <hr class="news__wrapper_item-line">
+          </div>
+        </div>
+
+        <div class="news__wrapper_article-text_all_box">
+          <a href="#" class="news__wrapper_article-text_all">Все бренды</a>
+        </div>
+      </div>
+
+      <div class="news__wrapper_photo" onmouseover="stopFunction()" onmouseout="autoShow()">
+        <div class="news__wrapper_photo_img-rectangles">
+          <span class="news-rectangles" onclick="currentSlide(1)"></span>
+          <span class="news-rectangles" onclick="currentSlide(2)"></span>
+          <span class="news-rectangles" onclick="currentSlide(3)"></span>
+        </div>
+
+        <div class="news__wrapper_photo-track" onmouseover="StopFunction()">
+          <div class="news-photo-slide fade">
+            <div class="news__wrapper_photo_IMG news__wrapper_photo_img"></div>
+          </div>
+
+          <div class="news-photo-slide fade">
+            <div class="news__wrapper_photo_IMG news__wrapper_photo_img_second"></div>
+          </div>
+
+          <div class="news-photo-slide fade">
+            <div class="news__wrapper_photo_IMG news__wrapper_photo_img_third"></div>
+          </div>
+        </div>
+        
+        
+        <div class="news__wrapper_photo_text">
+          <div class="news__wrapper_photo_text_arrow-left">
+            <button href="#" class="photo-btn_left" onclick="plusSlides(-1)"><img src="img/icon-arrow-left.svg" alt="icon-arrow-left"></button>
+          </div>
+
+          <div class="news__wrapper_photo_text_main">
+
+          </div> 
+
+          <div class="news__wrapper_photo_text_arrow-right">
+            <button href="#" class="photo-btn_right" onclick="plusSlides(1)"><img src="img/icon-arrow-right.svg" alt="icon-arrow-right"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="novetly">
+    <div class="novetly__header">
+      <div class="novetly__header_title-box">
+        <h2 class="novetly__header_title">Новинки</h2>
+    
+        <a href="#"><img src="img/icon-arrow-blue.svg" alt="icon-arrow-blue" class="novetly__header_title_img"></a>
+      </div>
+    
+      <hr class="novetly__header_line">
+    
+      <a href="#" class="novetly__header_link">Все новинки</a>
+    
+      <div class="novetly__header_arrow">
+        <div class="novetly__header_arrow-box">
+          <button class="btnPrev-novetly_tablet-landscape"><img src="img/orange-arrow.png" alt="orange-arrow" class="novetly__header_arrow-left"></button>
+        </div>
+    
+        <div class="novetly__header_arrow-box">
+          <button class="btnNext-novetly_tablet-landscape"><img src="img/orange-arrow.png" alt="orange-arrow" class="novetly__header_arrow-right"></button>
+        </div>
+
+        <div class="novetly__header_arrow-box_tablet">
+          <button class="btnPrev-novetly_tablet"><img src="img/orange-arrow.png" alt="orange-arrow" class="novetly__header_arrow-left"></button>
+        </div>
+    
+        <div class="novetly__header_arrow-box_tablet">
+          <button class="btnNext-novetly_tablet"><img src="img/orange-arrow.png" alt="orange-arrow" class="novetly__header_arrow-right"></button>
+        </div>
+
+        <div class="novetly__header_arrow-box_phone">
+          <button class="btnPrev-novetly_phone"><img src="img/orange-arrow.png" alt="orange-arrow" class="novetly__header_arrow-left"></button>
+        </div>
+    
+        <div class="novetly__header_arrow-box_phone">
+          <button class="btnNext-novetly_phone"><img src="img/orange-arrow.png" alt="orange-arrow" class="novetly__header_arrow-right"></button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="novetly__wrapper">
+      <div class="novetly__wrapper_item-track-box">
+        <div class="novetly__wrapper_arrow">
+          <button class="novetly-button_prev"><img src="img/icon-arrow-left.svg" alt="icon-arrow-left"></button>
+        </div>
+
+        <div class="novetly__wrapper_item-track">
+          <div class="novetly__wrapper_item-box">
+            <div class="novetly__wrapper_item">
+              <div class="novetly__wrapper_item_img" id="novetly-img-1"></div>
+          
+              <div class="novetly__wrapper_item_descr">
+                <div class="novetly__wrapper_item_descr-link" id="novetly-descr-1">
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-price">
+                  <div class="novetly__wrapper_item_descr-price_title" id="novetly_price-title-1"></div>
+                  <div class="novetly__wrapper_item_descr-price_new" id="novetly_price-new-1"></div>
+                  <div class="novetly__wrapper_item_descr-price_old" id="novetly_price-old-1"></div>
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-button">
+                  <button class="novetly__wrapper_item_descr-button_orange" id="novetly_button-1">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="novetly__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="novetly__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="novetly__wrapper_item-label">
+                <img src="img/label_new.svg" alt="label_new">
+          
+                <span class="novetly__wrapper_item-label_text">new</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="novetly__wrapper_item-box">
+            <div class="novetly__wrapper_item">
+              <div class="novetly__wrapper_item_img" id="novetly-img-2"></div>
+          
+              <div class="novetly__wrapper_item_descr">
+                <div class="novetly__wrapper_item_descr-link" id="novetly-descr-2">
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-price">
+                  <div class="novetly__wrapper_item_descr-price_title" id="novetly_price-title-2"></div>
+                  <div class="novetly__wrapper_item_descr-price_new" id="novetly_price-new-2"></div>
+                  <div class="novetly__wrapper_item_descr-price_old" id="novetly_price-old-2"></div>
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-button">
+                  <button class="novetly__wrapper_item_descr-button_orange" id="novetly_button-2">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="novetly__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="novetly__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="novetly__wrapper_item-label">
+                <img src="img/label_new.svg" alt="label_new">
+          
+                <span class="novetly__wrapper_item-label_text">new</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="novetly__wrapper_item-box">
+            <div class="novetly__wrapper_item">
+              <div class="novetly__wrapper_item_img" id="novetly-img-3"></div>
+          
+              <div class="novetly__wrapper_item_descr">
+                <div class="novetly__wrapper_item_descr-link" id="novetly-descr-3">
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-price">
+                  <div class="novetly__wrapper_item_descr-price_title" id="novetly_price-title-3"></div>
+                  <div class="novetly__wrapper_item_descr-price_new" id="novetly_price-new-3"></div>
+                  <div class="novetly__wrapper_item_descr-price_old" id="novetly_price-old-3"></div>
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-button">
+                  <button class="novetly__wrapper_item_descr-button_orange" id="novetly_button-3">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="novetly__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="novetly__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="novetly__wrapper_item-label">
+                <img src="img/label_new.svg" alt="label_new">
+          
+                <span class="novetly__wrapper_item-label_text">new</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="novetly__wrapper_item-box">
+            <div class="novetly__wrapper_item">
+              <div class="novetly__wrapper_item_img" id="novetly-img-4"></div>
+          
+              <div class="novetly__wrapper_item_descr">
+                <div class="novetly__wrapper_item_descr-link" id="novetly-descr-4">
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-price">
+                  <div class="novetly__wrapper_item_descr-price_title" id="novetly_price-title-4"></div>
+                  <div class="novetly__wrapper_item_descr-price_new" id="novetly_price-new-4"></div>
+                  <div class="novetly__wrapper_item_descr-price_old" id="novetly_price-old-4"></div>
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-button">
+                  <button class="novetly__wrapper_item_descr-button_orange" id="novetly_button-4">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="novetly__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="novetly__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="novetly__wrapper_item-label">
+                <img src="img/label_new.svg" alt="label_new">
+          
+                <span class="novetly__wrapper_item-label_text">new</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="novetly__wrapper_item-box">
+            <div class="novetly__wrapper_item">
+              <div class="novetly__wrapper_item_img" id="novetly-img-5"></div>
+          
+              <div class="novetly__wrapper_item_descr">
+                <div class="novetly__wrapper_item_descr-link" id="novetly-descr-5">
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-price">
+                  <div class="novetly__wrapper_item_descr-price_title" id="novetly_price-title-5"></div>
+                  <div class="novetly__wrapper_item_descr-price_new" id="novetly_price-new-5"></div>
+                  <div class="novetly__wrapper_item_descr-price_old" id="novetly_price-old-5"></div>
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-button">
+                  <button class="novetly__wrapper_item_descr-button_orange" id="novetly_button-5">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="novetly__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="novetly__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="novetly__wrapper_item-label">
+                <img src="img/label_new.svg" alt="label_new">
+          
+                <span class="novetly__wrapper_item-label_text">new</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="novetly__wrapper_item-box">
+            <div class="novetly__wrapper_item">
+              <div class="novetly__wrapper_item_img" id="novetly-img-6"></div>
+          
+              <div class="novetly__wrapper_item_descr">
+                <div class="novetly__wrapper_item_descr-link" id="novetly-descr-6">
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-price">
+                  <div class="novetly__wrapper_item_descr-price_title" id="novetly_price-title-6"></div>
+                  <div class="novetly__wrapper_item_descr-price_new" id="novetly_price-new-6"></div>
+                  <div class="novetly__wrapper_item_descr-price_old" id="novetly_price-old-6"></div>
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-button">
+                  <button class="novetly__wrapper_item_descr-button_orange" id="novetly_button-6">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="novetly__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="novetly__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="novetly__wrapper_item-label">
+                <img src="img/label_new.svg" alt="label_new">
+          
+                <span class="novetly__wrapper_item-label_text">new</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="novetly__wrapper_item-box">
+            <div class="novetly__wrapper_item">
+              <div class="novetly__wrapper_item_img" id="novetly-img-7"></div>
+          
+              <div class="novetly__wrapper_item_descr">
+                <div class="novetly__wrapper_item_descr-link" id="novetly-descr-7">
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-price">
+                  <div class="novetly__wrapper_item_descr-price_title" id="novetly_price-title-7"></div>
+                  <div class="novetly__wrapper_item_descr-price_new" id="novetly_price-new-7"></div>
+                  <div class="novetly__wrapper_item_descr-price_old" id="novetly_price-old-7"></div>
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-button">
+                  <button class="novetly__wrapper_item_descr-button_orange" id="novetly_button-7">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="novetly__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="novetly__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="novetly__wrapper_item-label">
+                <img src="img/label_new.svg" alt="label_new">
+          
+                <span class="novetly__wrapper_item-label_text">new</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="novetly__wrapper_item-box">
+            <div class="novetly__wrapper_item">
+              <div class="novetly__wrapper_item_img" id="novetly-img-8"></div>
+          
+              <div class="novetly__wrapper_item_descr">
+                <div class="novetly__wrapper_item_descr-link" id="novetly-descr-8">
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-price">
+                  <div class="novetly__wrapper_item_descr-price_title" id="novetly_price-title-8"></div>
+                  <div class="novetly__wrapper_item_descr-price_new" id="novetly_price-new-8"></div>
+                  <div class="novetly__wrapper_item_descr-price_old" id="novetly_price-old-8"></div>
+                </div>
+          
+                <div class="novetly__wrapper_item_descr-button">
+                  <button class="novetly__wrapper_item_descr-button_orange" id="novetly_button-8">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="novetly__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="novetly__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="novetly__wrapper_item-label">
+                <img src="img/label_new.svg" alt="label_new">
+          
+                <span class="novetly__wrapper_item-label_text">new</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="novetly__wrapper_arrow novetly__wrapper_arrow-right">
+          <button class="novetly-button_next"><img src="img/icon-arrow-right.svg" alt="icon-arrow-right"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="recomm">
+    <div class="recomm__header">
+      <div class="recomm__header_title-box">
+        <h2 class="recomm__header_title">Рекомендуем</h2>
+
+        <a href="#"><img src="img/icon-arrow-blue.svg" alt="icon-arrow-blue" class="recomm__header_title_img"></a>
+      </div>
+
+      <hr class="recomm__header_line">
+
+      <a href="#" class="recomm__header_link">Все рекомендации</a>
+
+      <div class="recomm__header_arrow">
+        <div class="recomm__header_arrow-box">
+          <button class="btnPrev-recomm_tablet-landscape"><img src="img/orange-arrow.png" alt="orange-arrow" class="recomm__header_arrow-left"></button>
+        </div>
+    
+        <div class="recomm__header_arrow-box">
+          <button class="btnNext-recomm_tablet-landscape"><img src="img/orange-arrow.png" alt="orange-arrow" class="recomm__header_arrow-right"></button>
+        </div>
+
+        <div class="recomm__header_arrow-box_tablet">
+          <button class="btnPrev-recomm_tablet"><img src="img/orange-arrow.png" alt="orange-arrow" class="recomm__header_arrow-left"></button>
+        </div>
+    
+        <div class="recomm__header_arrow-box_tablet">
+          <button class="btnNext-recomm_tablet"><img src="img/orange-arrow.png" alt="orange-arrow" class="recomm__header_arrow-right"></button>
+        </div>
+
+        <div class="recomm__header_arrow-box_phone">
+          <button class="btnPrev-recomm_phone"><img src="img/orange-arrow.png" alt="orange-arrow" class="recomm__header_arrow-left"></button>
+        </div>
+    
+        <div class="recomm__header_arrow-box_phone">
+          <button class="btnNext-recomm_phone"><img src="img/orange-arrow.png" alt="orange-arrow" class="recomm__header_arrow-right"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="recomm__wrapper">
+      <div class="recomm__wrapper_item-track-box">
+        <div class="recomm__wrapper_arrow">
+          <button class="recomm-button_prev"><img src="img/icon-arrow-left.svg" alt="icon-arrow-left"></button>
+        </div>
+
+        <div class="recomm__wrapper_item-track">
+          <div class="recomm__wrapper_item-box">
+            <div class="recomm__wrapper_item">
+              <div class="recomm__wrapper_item_img" id="recomm-img-1"></div>
+          
+              <div class="recomm__wrapper_item_descr">
+                <div class="recomm__wrapper_item_descr-link" id="recomm-descr-1">
+                </div>
+          
+                <div class="recomm__wrapper_item_descr-price">
+                  <div class="recomm__wrapper_item_descr-price_title" id="recomm_price-title-1"></div>
+                  <div class="recomm__wrapper_item_descr-price_new" id="recomm_price-new-1"></div>
+                  <div class="recomm__wrapper_item_descr-price_old" id="recomm_price-old-1"></div>
+                </div>
+          
+                <div class="recomm__wrapper_item_descr-button">
+                  <button class="recomm__wrapper_item_descr-button_orange" id="recomm_button-1">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="recomm__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="recomm__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="recomm__wrapper_item-label">
+                <img src="img/label-wo.svg" alt="label">
+      
+                <div class="recomm__wrapper_item-label_text">
+                  <img src="img/like.svg" alt="like">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="recomm__wrapper_item-box">
+            <div class="recomm__wrapper_item">
+              <div class="recomm__wrapper_item_img" id="recomm-img-2"></div>
+          
+              <div class="recomm__wrapper_item_descr">
+                <div class="recomm__wrapper_item_descr-link" id="recomm-descr-2">
+                </div>
+          
+                <div class="recomm__wrapper_item_descr-price">
+                  <div class="recomm__wrapper_item_descr-price_title" id="recomm_price-title-2"></div>
+                  <div class="recomm__wrapper_item_descr-price_new" id="recomm_price-new-2"></div>
+                  <div class="recomm__wrapper_item_descr-price_old" id="recomm_price-old-2"></div>
+                </div>
+          
+                <div class="recomm__wrapper_item_descr-button">
+                  <button class="recomm__wrapper_item_descr-button_orange" id="recomm_button-2">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="recomm__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="recomm__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="recomm__wrapper_item-label">
+                <img src="img/label-wo.svg" alt="label">
+      
+                <div class="recomm__wrapper_item-label_text">
+                  <img src="img/like.svg" alt="like">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="recomm__wrapper_item-box">
+            <div class="recomm__wrapper_item">
+              <div class="recomm__wrapper_item_img" id="recomm-img-3"></div>
+          
+              <div class="recomm__wrapper_item_descr">
+                <div class="recomm__wrapper_item_descr-link" id="recomm-descr-3">
+                </div>
+          
+                <div class="recomm__wrapper_item_descr-price">
+                  <div class="recomm__wrapper_item_descr-price_title" id="recomm_price-title-3"></div>
+                  <div class="recomm__wrapper_item_descr-price_new" id="recomm_price-new-3"></div>
+                  <div class="recomm__wrapper_item_descr-price_old" id="recomm_price-old-3"></div>
+                </div>
+          
+                <div class="recomm__wrapper_item_descr-button">
+                  <button class="recomm__wrapper_item_descr-button_orange" id="recomm_button-3">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="recomm__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="recomm__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="recomm__wrapper_item-label">
+                <img src="img/label-wo.svg" alt="label">
+      
+                <div class="recomm__wrapper_item-label_text">
+                  <img src="img/like.svg" alt="like">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="recomm__wrapper_item-box">
+            <div class="recomm__wrapper_item">
+              <div class="recomm__wrapper_item_img" id="recomm-img-4"></div>
+          
+              <div class="recomm__wrapper_item_descr">
+                <div class="recomm__wrapper_item_descr-link" id="recomm-descr-4">
+                </div>
+          
+                <div class="recomm__wrapper_item_descr-price">
+                  <div class="recomm__wrapper_item_descr-price_title" id="recomm_price-title-4"></div>
+                  <div class="recomm__wrapper_item_descr-price_new" id="recomm_price-new-4"></div>
+                  <div class="recomm__wrapper_item_descr-price_old" id="recomm_price-old-4"></div>
+                </div>
+          
+                <div class="recomm__wrapper_item_descr-button">
+                  <button class="recomm__wrapper_item_descr-button_orange" id="recomm_button-4">
+                    <img src="img/icon-cart.svg" alt="icon-cart" class="recomm__wrapper_item_descr-button_orange_icon">
+                    <span>купить</span>
+                  </button>
+          
+                  <a href="#" class="recomm__wrapper_item_descr-button_link">Подробнее</a>
+                </div>
+              </div>
+          
+              <div class="recomm__wrapper_item-label">
+                <img src="img/label-wo.svg" alt="label">
+      
+                <div class="recomm__wrapper_item-label_text">
+                  <img src="img/like.svg" alt="like">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="recomm__wrapper_arrow recomm__wrapper_arrow-right">
+          <button class="recomm-button_next"><img src="img/icon-arrow-right.svg" alt="icon-arrow-right"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sales">
+    <div class="sales__header">
+      <div class="sales__header_title-box">
+        <h2 class="sales__header_title">Распродажа</h2>
+    
+        <a href="#"><img src="img/icon-arrow-blue.svg" alt="icon-arrow-blue" class="sales__header_title_img"></a>
+      </div>
+    
+      <hr class="sales__header_line">
+    
+      <a href="#" class="sales__header_link">Все товары</a>
+    
+      <div class="sales__header_arrow">
+        <div class="sales__header_arrow-box">
+          <button class="btnPrev-sales_tablet-landscape"><img src="img/orange-arrow.png" alt="orange-arrow" class="sales__header_arrow-left"></button>
+        </div>
+    
+        <div class="sales__header_arrow-box">
+          <button class="btnNext-sales_tablet-landscape"><img src="img/orange-arrow.png" alt="orange-arrow" class="sales__header_arrow-right"></button>
+        </div>
+
+        <div class="sales__header_arrow-box_tablet">
+          <button class="btnPrev-sales_tablet"><img src="img/orange-arrow.png" alt="orange-arrow" class="sales__header_arrow-left"></button>
+        </div>
+    
+        <div class="sales__header_arrow-box_tablet">
+          <button class="btnNext-sales_tablet"><img src="img/orange-arrow.png" alt="orange-arrow" class="sales__header_arrow-right"></button>
+        </div>
+
+        <div class="sales__header_arrow-box_phone">
+          <button class="btnPrev-sales_phone"><img src="img/orange-arrow.png" alt="orange-arrow" class="sales__header_arrow-left"></button>
+        </div>
+    
+        <div class="sales__header_arrow-box_phone">
+          <button class="btnNext-sales_phone"><img src="img/orange-arrow.png" alt="orange-arrow" class="sales__header_arrow-right"></button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="sales__wrapper">
+        <div class="sales__wrapper_item-track-box">
+          <div class="sales__wrapper_arrow">
+            <button class="sales-button_prev"><img src="img/icon-arrow-left.svg" alt="icon-arrow-left"></button>
+          </div>
+  
+          <div class="sales__wrapper_item-track">
+            <div class="sales__wrapper_item-box">
+              <div class="sales__wrapper_item">
+                <div class="sales__wrapper_item_img" id="sales-img-1"></div>
+            
+                <div class="sales__wrapper_item_descr">
+                  <div class="sales__wrapper_item_descr-link" id="sales-descr-1">
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-price">
+                    <div class="sales__wrapper_item_descr-price_title" id="sales_price-title-1"></div>
+                    <div class="sales__wrapper_item_descr-price_new" id="sales_price-new-1"></div>
+                    <div class="sales__wrapper_item_descr-price_old" id="sales_price-old-1"></div>
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-button">
+                    <button class="sales__wrapper_item_descr-button_orange" id="sales_button-1">
+                      <img src="img/icon-cart.svg" alt="icon-cart" class="sales__wrapper_item_descr-button_orange_icon">
+                      <span>купить</span>
+                    </button>
+            
+                    <a href="#" class="sales__wrapper_item_descr-button_link">Подробнее</a>
+                  </div>
+                </div>
+            
+                <div class="sales__wrapper_item-label">
+                  <img src="img/label-percent.svg" alt="label">
+        
+                  <div class="sales__wrapper_item-label_text">
+                    <img src="img/percent.svg" alt="like">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales__wrapper_item-box">
+              <div class="sales__wrapper_item">
+                <div class="sales__wrapper_item_img" id="sales-img-2"></div>
+            
+                <div class="sales__wrapper_item_descr">
+                  <div class="sales__wrapper_item_descr-link" id="sales-descr-2">
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-price">
+                    <div class="sales__wrapper_item_descr-price_title" id="sales_price-title-2"></div>
+                    <div class="sales__wrapper_item_descr-price_new" id="sales_price-new-2"></div>
+                    <div class="sales__wrapper_item_descr-price_old" id="sales_price-old-2"></div>
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-button">
+                    <button class="sales__wrapper_item_descr-button_orange" id="sales_button-2">
+                      <img src="img/icon-cart.svg" alt="icon-cart" class="sales__wrapper_item_descr-button_orange_icon">
+                      <span>купить</span>
+                    </button>
+            
+                    <a href="#" class="sales__wrapper_item_descr-button_link">Подробнее</a>
+                  </div>
+                </div>
+            
+                <div class="sales__wrapper_item-label">
+                  <img src="img/label-percent.svg" alt="label">
+        
+                  <div class="sales__wrapper_item-label_text">
+                    <img src="img/percent.svg" alt="like">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales__wrapper_item-box">
+              <div class="sales__wrapper_item">
+                <div class="sales__wrapper_item_img" id="sales-img-3"></div>
+            
+                <div class="sales__wrapper_item_descr">
+                  <div class="sales__wrapper_item_descr-link" id="sales-descr-3">
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-price">
+                    <div class="sales__wrapper_item_descr-price_title" id="sales_price-title-3"></div>
+                    <div class="sales__wrapper_item_descr-price_new" id="sales_price-new-3"></div>
+                    <div class="sales__wrapper_item_descr-price_old" id="sales_price-old-3"></div>
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-button">
+                    <button class="sales__wrapper_item_descr-button_orange" id="sales_button-3">
+                      <img src="img/icon-cart.svg" alt="icon-cart" class="sales__wrapper_item_descr-button_orange_icon">
+                      <span>купить</span>
+                    </button>
+            
+                    <a href="#" class="sales__wrapper_item_descr-button_link">Подробнее</a>
+                  </div>
+                </div>
+            
+                <div class="sales__wrapper_item-label">
+                  <img src="img/label-percent.svg" alt="label">
+        
+                  <div class="sales__wrapper_item-label_text">
+                    <img src="img/percent.svg" alt="like">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales__wrapper_item-box">
+              <div class="sales__wrapper_item">
+                <div class="sales__wrapper_item_img" id="sales-img-4"></div>
+            
+                <div class="sales__wrapper_item_descr">
+                  <div class="sales__wrapper_item_descr-link" id="sales-descr-4">
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-price">
+                    <div class="sales__wrapper_item_descr-price_title" id="sales_price-title-4"></div>
+                    <div class="sales__wrapper_item_descr-price_new" id="sales_price-new-4"></div>
+                    <div class="sales__wrapper_item_descr-price_old" id="sales_price-old-4"></div>
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-button">
+                    <button class="sales__wrapper_item_descr-button_orange" id="sales_button-4">
+                      <img src="img/icon-cart.svg" alt="icon-cart" class="sales__wrapper_item_descr-button_orange_icon">
+                      <span>купить</span>
+                    </button>
+            
+                    <a href="#" class="sales__wrapper_item_descr-button_link">Подробнее</a>
+                  </div>
+                </div>
+            
+                <div class="sales__wrapper_item-label">
+                  <img src="img/label-percent.svg" alt="label">
+        
+                  <div class="sales__wrapper_item-label_text">
+                    <img src="img/percent.svg" alt="like">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales__wrapper_item-box">
+              <div class="sales__wrapper_item">
+                <div class="sales__wrapper_item_img" id="sales-img-5"></div>
+            
+                <div class="sales__wrapper_item_descr">
+                  <div class="sales__wrapper_item_descr-link" id="sales-descr-5">
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-price">
+                    <div class="sales__wrapper_item_descr-price_title" id="sales_price-title-5"></div>
+                    <div class="sales__wrapper_item_descr-price_new" id="sales_price-new-5"></div>
+                    <div class="sales__wrapper_item_descr-price_old" id="sales_price-old-5"></div>
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-button">
+                    <button class="sales__wrapper_item_descr-button_orange" id="sales_button-5">
+                      <img src="img/icon-cart.svg" alt="icon-cart" class="sales__wrapper_item_descr-button_orange_icon">
+                      <span>купить</span>
+                    </button>
+            
+                    <a href="#" class="sales__wrapper_item_descr-button_link">Подробнее</a>
+                  </div>
+                </div>
+            
+                <div class="sales__wrapper_item-label">
+                  <img src="img/label-percent.svg" alt="label">
+        
+                  <div class="sales__wrapper_item-label_text">
+                    <img src="img/percent.svg" alt="like">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales__wrapper_item-box">
+              <div class="sales__wrapper_item">
+                <div class="sales__wrapper_item_img" id="sales-img-6"></div>
+            
+                <div class="sales__wrapper_item_descr">
+                  <div class="sales__wrapper_item_descr-link" id="sales-descr-6">
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-price">
+                    <div class="sales__wrapper_item_descr-price_title" id="sales_price-title-6"></div>
+                    <div class="sales__wrapper_item_descr-price_new" id="sales_price-new-6"></div>
+                    <div class="sales__wrapper_item_descr-price_old" id="sales_price-old-6"></div>
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-button">
+                    <button class="sales__wrapper_item_descr-button_orange" id="sales_button-6">
+                      <img src="img/icon-cart.svg" alt="icon-cart" class="sales__wrapper_item_descr-button_orange_icon">
+                      <span>купить</span>
+                    </button>
+            
+                    <a href="#" class="sales__wrapper_item_descr-button_link">Подробнее</a>
+                  </div>
+                </div>
+            
+                <div class="sales__wrapper_item-label">
+                  <img src="img/label-percent.svg" alt="label">
+        
+                  <div class="sales__wrapper_item-label_text">
+                    <img src="img/percent.svg" alt="like">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales__wrapper_item-box">
+              <div class="sales__wrapper_item">
+                <div class="sales__wrapper_item_img" id="sales-img-7"></div>
+            
+                <div class="sales__wrapper_item_descr">
+                  <div class="sales__wrapper_item_descr-link" id="sales-descr-7">
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-price">
+                    <div class="sales__wrapper_item_descr-price_title" id="sales_price-title-7"></div>
+                    <div class="sales__wrapper_item_descr-price_new" id="sales_price-new-7"></div>
+                    <div class="sales__wrapper_item_descr-price_old" id="sales_price-old-7"></div>
+                  </div>
+            
+                  <div class="sales__wrapper_item_descr-button">
+                    <button class="sales__wrapper_item_descr-button_orange" id="sales_button-7">
+                      <img src="img/icon-cart.svg" alt="icon-cart" class="sales__wrapper_item_descr-button_orange_icon">
+                      <span>купить</span>
+                    </button>
+            
+                    <a href="#" class="sales__wrapper_item_descr-button_link">Подробнее</a>
+                  </div>
+                </div>
+            
+                <div class="sales__wrapper_item-label">
+                  <img src="img/label-percent.svg" alt="label">
+        
+                  <div class="sales__wrapper_item-label_text">
+                    <img src="img/percent.svg" alt="like">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sales__wrapper_arrow sales__wrapper_arrow-right">
+            <button class="sales-button_next"><img src="img/icon-arrow-right.svg" alt="icon-arrow-right"></button>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="promotion">
+    <div class="promotion__header">
+      <div class="promotion__header_title-box">
+        <h2 class="promotion__header_title">Акции</h2>
+    
+        <a href="#"><img src="img/icon-arrow-blue.svg" alt="icon-arrow-blue" class="promotion__header_title_img"></a>
+      </div>
+    
+      <hr class="promotion__header_line">
+    
+      <a href="#" class="promotion__header_link">Все акции</a>
+    
+      <a href="#" class="promotion__header_arrow">
+        <div class="promotion__header_arrow-box">
+          <img src="img/orange-arrow.png" alt="orange-arrow" class="promotion__header_arrow-left">
+        </div>
+    
+        <div class="promotion__header_arrow-box">
+          <img src="img/orange-arrow.png" alt="orange-arrow" class="promotion__header_arrow-right">
+        </div>
+      </a>
+    </div>
+    
+    <div class="promotion__wrapper">
+      <div class="promotion__wrapper_item">
+        <div class="promotion__wrapper_item_title" id="promotion-title-1"></div>
+
+        <div id="promotion-img-1"></div> 
+
+        <div class="promotion__wrapper_item_descr" id="promotion-descr-1"></div>
+    
+        <div class="promotion__wrapper_item_term-wrapper">
+          <div class="promotion__wrapper_item_term" id="promotion-date-block-1">
+            <span class="promotion__wrapper_item_term-title">Срок действия:</span>
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-days-1"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">дней</span>
+            </div>
+
+            <img src="img/icon-dots.svg" alt="icon-dots" class="promotion__wrapper_item_term_dots">
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-hours-1"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">часов</span>
+            </div>
+
+            <img src="img/icon-dots.svg" alt="icon-dots" class="promotion__wrapper_item_term_dots">
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-minutes-1"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">минут</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="promotion__wrapper_item-link">
+          <a href="#">Подробнее</a>
+        </div>
+      </div>
+
+      <div class="promotion__wrapper_item">
+        <div class="promotion__wrapper_item_title" id="promotion-title-2"></div>
+
+        <div id="promotion-img-2"></div> 
+
+        <div class="promotion__wrapper_item_descr" id="promotion-descr-2"></div>
+    
+        <div class="promotion__wrapper_item_term-wrapper">
+          <div class="promotion__wrapper_item_term" id="promotion-date-block-2">
+            <span class="promotion__wrapper_item_term-title">Срок действия:</span>
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-days-2"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">дней</span>
+            </div>
+
+            <img src="img/icon-dots.svg" alt="icon-dots" class="promotion__wrapper_item_term_dots">
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-hours-2"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">часов</span>
+            </div>
+
+            <img src="img/icon-dots.svg" alt="icon-dots" class="promotion__wrapper_item_term_dots">
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-minutes-2"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">минут</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="promotion__wrapper_item-link">
+          <a href="#">Подробнее</a>
+        </div>
+      </div>
+
+      <div class="promotion__wrapper_item">
+        <div class="promotion__wrapper_item_title" id="promotion-title-3"></div>
+
+        <div id="promotion-img-3"></div> 
+
+        <div class="promotion__wrapper_item_descr" id="promotion-descr-3"></div>
+    
+        <div class="promotion__wrapper_item_term-wrapper">
+          <div class="promotion__wrapper_item_term" id="promotion-date-block-3">
+            <span class="promotion__wrapper_item_term-title">Срок действия:</span>
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-days-3"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">дней</span>
+            </div>
+
+            <img src="img/icon-dots.svg" alt="icon-dots" class="promotion__wrapper_item_term_dots">
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-hours-3"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">часов</span>
+            </div>
+
+            <img src="img/icon-dots.svg" alt="icon-dots" class="promotion__wrapper_item_term_dots">
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-minutes-3"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">минут</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="promotion__wrapper_item-link">
+          <a href="#">Подробнее</a>
+        </div>
+      </div>
+
+      <div class="promotion__wrapper_item">
+        <div class="promotion__wrapper_item_title" id="promotion-title-4"></div>
+
+        <div id="promotion-img-4"></div> 
+
+        <div class="promotion__wrapper_item_descr" id="promotion-descr-4"></div>
+    
+        <div class="promotion__wrapper_item_term-wrapper">
+          <div class="promotion__wrapper_item_term" id="promotion-date-block-4">
+            <span class="promotion__wrapper_item_term-title">Срок действия:</span>
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-days-4"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">дней</span>
+            </div>
+
+            <img src="img/icon-dots.svg" alt="icon-dots" class="promotion__wrapper_item_term_dots">
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-hours-4"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">часов</span>
+            </div>
+
+            <img src="img/icon-dots.svg" alt="icon-dots" class="promotion__wrapper_item_term_dots">
+
+            <div class="promotion__wrapper_item_term-box">
+              <div class="promotion__wrapper_item_term-box_numbers" id="promotion-minutes-4"></div>
+
+              <span class="promotion__wrapper_item_term-box_subtitle">минут</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="promotion__wrapper_item-link">
+          <a href="#">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="purchases">
+    <div class="purchases__header">
+      <div class="purchases__header_title-box">
+        <h2 class="purchases__header_title">Что покупают прямо сейчас</h2>
+      </div>
+
+      <hr class="purchases__header_line">
+    </div>
+
+    <div class="purchases__products">
+      <div class="purchases__products-box" id="purchases__products-box-1">
+        <div class="purchases__products_img-box" id="purchases-img-1"></div>
+
+        <div class="purchases__products_img_descr-box" id="purchases-title-1"></div>
+      </div>
+
+      <div class="purchases__products-box" id="purchases__products-box-2">
+        <div class="purchases__products_img-box" id="purchases-img-2"></div>
+
+        <div class="purchases__products_img_descr-box" id="purchases-title-2"></div>
+      </div>
+
+      <div class="purchases__products-box" id="purchases__products-box-3">
+        <div class="purchases__products_img-box" id="purchases-img-3"></div>
+
+        <div class="purchases__products_img_descr-box" id="purchases-title-3"></div>
+      </div>
+
+      <div class="purchases__products-box" id="purchases__products-box-4">
+        <div class="purchases__products_img-box" id="purchases-img-4"></div>
+
+        <div class="purchases__products_img_descr-box" id="purchases-title-4"></div>
+      </div>
+
+      <div class="purchases__products-box" id="purchases__products-box-5">
+        <div class="purchases__products_img-box" id="purchases-img-5"></div>
+
+        <div class="purchases__products_img_descr-box" id="purchases-title-5"></div>
+      </div>
+
+      <div class="purchases__products-box" id="purchases__products-box-6">
+        <div class="purchases__products_img-box" id="purchases-img-6"></div>
+
+        <div class="purchases__products_img_descr-box" id="purchases-title-6"></div>
+      </div>
+
+      <div class="purchases__products-box" id="purchases__products-box-7">
+        <div class="purchases__products_img-box" id="purchases-img-7"></div>
+
+        <div class="purchases__products_img_descr-box" id="purchases-title-7"></div>
+      </div>
+
+      <div class="purchases__products-box" id="purchases__products-box-8">
+        <div class="purchases__products_img-box" id="purchases-img-8"></div>
+
+        <div class="purchases__products_img_descr-box" id="purchases-title-8"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="brands">
+    <div class="brands__header">
+      <div class="brands__header_title-box">
+        <h2 class="brands__header_title">Наши ключевые бренды</h2>
+    
+        <a href="#"><img src="img/icon-arrow-blue.svg" alt="icon-arrow-blue" class="sales__header_title_img"></a>
+      </div>
+    
+      <hr class="brands__header_line">
+    
+      <a href="#" class="brands__header_link">Все бренды</a>
+    
+      <a href="#" class="brands__header_arrow">
+        <div class="brands__header_arrow-box">
+          <img src="img/orange-arrow.png" alt="orange-arrow" class="brands__header_arrow-left">
+        </div>
+    
+        <div class="brands__header_arrow-box">
+          <img src="img/orange-arrow.png" alt="orange-arrow" class="brands__header_arrow-right">
+        </div>
+      </a>
+    </div>
+
+    <div class="brands__img">
+        <a href="#" class="brands__img-link"><img src="img/brand_escene.png" alt="brand_escene" class="brands__img_pic"></a>
+        <a href="#" class="brands__img-link"><img src="img/brand_fanvil.png" alt="brand_fanvil" class="brands__img_pic"></a>
+        <a href="#" class="brands__img-link"><img src="img/brand_panasonic.png" alt="brand_panasonic" class="brands__img_pic"></a>
+        <a href="#" class="brands__img-link"><img src="img/brand_siemens.png" alt="brand_siemens" class="brands__img_pic"></a>
+        <a href="#" class="brands__img-link"><img src="img/brand_samsung.png" alt="brand_samsung" class="brands__img_pic"></a>
+    </div>
+  </section>
+
+  <section class="strenghts">
+    <div class="strenghts__box">
+      <div class="strenghts__header">
+        <div class="strenghts__header_title-box">
+          <h2 class="strenghts__header_title">Наши сильные стороны</h2>
+        </div>
+  
+        <hr class="strenghts__header_line">
+      </div>
+
+      <div class="strenghts__benefits">
+        <div class="strenghts__benefits_box">
+          <div class="strenghts__benefits_box_icons">
+            <a href="#"><img src="img/strenghts-first.svg" alt="strenghts"></a>
+          </div>
+
+          <p class="strenghts__benefits_box_descr">Грамотная консультация по <br> каждому товару</p>
+        </div>
+
+        <div class="strenghts__benefits_box">
+          <div class="strenghts__benefits_box_icons">
+            <a href="#"><img src="img/strenghts-second.svg" alt="strenghts"></a>
+          </div>
+
+          <p class="strenghts__benefits_box_descr">Любые способы <br> оплаты</p>
+        </div>
+
+        <div class="strenghts__benefits_box">
+          <div class="strenghts__benefits_box_icons">
+            <a href="#"><img src="img/strenghts-third.svg" alt="strenghts"></a>
+          </div>
+
+          <p class="strenghts__benefits_box_descr">Собственный сервисный <br> центр</p>
+        </div>
+
+        <div class="strenghts__benefits_box">
+          <div class="strenghts__benefits_box_icons">
+            <a href="#"><img src="img/strenghts-fourth.svg" alt="strenghts"></a>
+          </div>
+
+          <p class="strenghts__benefits_box_descr">Разветвленная сеть <br> самовывоза (Pickpoint)</p>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="company">
+    <div class="company__header">
+      <div class="company__header_title-box">
+        <h2 class="company__header_title">Что покупают прямо сейчас</h2>
+      </div>
+
+      <hr class="company__header_line">
+    </div>
+
+
+    <div class="company__reasons">
+      <div class="company__reasons_article-first">
+        <div class="company__reasons_article-first_header">
+          <div class="company__reasons_article-first_header-box">
+            <div>
+              <img src="img/cross.svg" alt="cross">
+            </div>
+
+            <div class="company__reasons_article-first_title">
+              С чем сталкиваются клиенты в 85% случаев, когда обращаются к нашим конкурентам?
+            </div>
+          </div>
+        </div>
+
+        <ul class="company__reasons_marker_list">
+          <li class="company__reasons_marker company__reasons_marker_red">
+            <span class="company__reasons_text">
+              <span class="bold">1.5 беглых менеджера</span>  по продажам со своим сайтом, имитирующие торговую компанию.
+            </span>
+          </li>
+
+          <li class="company__reasons_marker company__reasons_marker_red">
+            <span class="company__reasons_text">
+              <span class="bold">Торговля серым</span>, несертифицированным товаром, что выливается в проблемы при гарантийном обслуживании.
+            </span>
+          </li>
+
+          <li class="company__reasons_marker company__reasons_marker_red">
+            <span class="company__reasons_text">
+              <span class="bold">Менеджеры по продажам</span> знакомы с оборудованием лишь на бумаге, часто не знают, что они продают.
+            </span>
+          </li>
+
+          <li class="company__reasons_marker company__reasons_marker_red">
+            <span class="company__reasons_text">
+              <span class="bold">Компании занимаются только продажей</span>, не проводят установку и настройку оборудования под ключ. Не оказывают техподдержку.
+            </span>
+          </li>
+
+          <li class="company__reasons_marker company__reasons_marker_red">
+            <span class="company__reasons_text">
+              <span class="bold">Сложная процедура гарантийного ремонта</span> и возврата товара в случае проблем. Не понятно, куда обращаться по гарантии.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="company__reasons_article-second">
+        <div class="company__reasons_article-second_header">
+          <div class="company__reasons_article-second_header-box">
+            <div>
+              <img src="img/tick.svg" alt="tick">
+            </div>
+
+            <div class="company__reasons_article-second_title">
+              Какой сервис предложим Вам мы?
+            </div>
+          </div>
+        </div>
+
+        <ul class="company__reasons_marker_list">
+          <li class="company__reasons_marker company__reasons_marker_green">
+            <span class="company__reasons_text">
+              <span class="bold">Открытая компания</span> с полным штатом профильных специалистов.
+            </span>
+          </li>
+
+          <li class="company__reasons_marker company__reasons_marker_green">
+            <span class="company__reasons_text">
+              Торговля оборудованием, пришедшим в РФ <span class="bold">исключительно через официальные поставки.</span>
+            </span>
+          </li>
+          
+          <li class="company__reasons_marker company__reasons_marker_green">
+            <span class="company__reasons_text">
+              <span class="bold">Мы прекрасно понимаем,</span> что за оборудование продаем. Можем проконсультировать по функционалу, либо подобрать аналог.
+            </span>
+          </li>
+
+          <li class="company__reasons_marker company__reasons_marker_green">
+            <span class="company__reasons_text">
+              <span class="bold">Оказываем полный комплекс услуг</span> по технической поддержке клиентов, а также проводим установку и настройку силами своего IT подразделения.
+            </span>
+          </li>
+
+          <li class="company__reasons_marker company__reasons_marker_green">
+            <span class="company__reasons_text">
+              <span class="bold">Мы имеем собственный сервисный центр,</span> который осуществляет гарантийный ремонт оборудования.
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="numeral">
+    <div class="numeral__header">
+      <div class="numeral__header_title-box">
+        <h2 class="numeral__header_title">Мы в цифрах</h2>
+      </div>
+    
+      <hr class="numeral__header_line">
+        
+      <a href="#" class="numeral__header_arrow">
+        <div class="numeral__header_arrow-box">
+          <img src="img/orange-arrow.png" alt="orange-arrow" class="numeral__header_arrow-left">
+        </div>
+    
+        <div class="numeral__header_arrow-box">
+          <img src="img/orange-arrow.png" alt="orange-arrow" class="numeral__header_arrow-right">
+        </div>
+      </a>
+    </div>
+
+    <div class="numeral__numbers">
+      <div class="numeral__numbers_box">
+        <div class="numeral__numbers_circles numeral__numbers_circles-1">
+          10
+        </div>
+
+        <div class="numeral__numbers_circles-descr">
+          10 лет на рынке
+        </div>
+      </div>
+
+      <div class="numeral__numbers_box">
+        <div class="numeral__numbers_circles numeral__numbers_circles-2">
+          25/5
+        </div>
+
+        <div class="numeral__numbers_circles-descr">
+          25 профильных специалистов, 5 менеджеров отдела продаж
+        </div>
+      </div>
+
+      <div class="numeral__numbers_box">
+        <div class="numeral__numbers_circles numeral__numbers_circles-3">
+          2222 <br> x <br> 100
+        </div>
+
+        <div class="numeral__numbers_circles-descr">
+          2222 товара в каталоге среди 100 брендов
+        </div>
+      </div>
+
+      <div class="numeral__numbers_box">
+        <div class="numeral__numbers_circles numeral__numbers_circles-4">
+          29
+        </div>
+
+        <div class="numeral__numbers_circles-descr">
+          29 торговых партнеров
+        </div>
+      </div>
+
+      <div class="numeral__numbers_box">
+        <div class="numeral__numbers_circles numeral__numbers_circles-5">
+          14
+        </div>
+
+        <div class="numeral__numbers_circles-descr">
+          14 отгрузок в сутки
+        </div>
+      </div>
+
+      <div class="numeral__numbers_box">
+        <div class="numeral__numbers_circles numeral__numbers_circles-6">
+          1
+        </div>
+
+        <div class="numeral__numbers_circles-descr">
+          1 из лидеров рынка
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="instruction">
+    <div class="instruction__header">
+      <div class="instruction__header_title-box">
+        <h2 class="instruction__header_title">Как с нами работать?</h2>
+      </div>
+
+      <hr class="instruction__header_line">
+    </div>
+
+    <div class="instruction_variants">
+      <div class="instruction_variants_top">
+        <div class="instruction_variants_black">
+          <span class="instruction_variants_black_text">в розницу</span>
+        </div>
+
+        <div class="instruction_variants_orange">
+          <span class="instruction_variants_orange_text">оптовикам</span>
+        </div>
+      </div>
+
+      <div class="instruction_variants_bot">
+        <div class="instruction_variants_orange">
+          <span class="instruction_variants_orange_text">партнерам</span>
+        </div>
+
+        <div class="instruction_variants_orange">
+          <span class="instruction_variants_orange_text">покупая с настройкой</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="instruction_order">
+        <div class="instruction_order-box instruction_order-box_first">
+          <img src="img/icon-phone.svg" alt="phone" class="instruction_order-icon">
+
+          <div class="instruction_order-text">
+            <p><span class="instruction_order-text_bold">1. &nbsp;</span>Обращение через сайт/по телефону</p>
+          </div>
+        </div>
+
+        <img src="img/arrow-long.svg" alt="arrow" class="instruction_order-arrow">
+
+        <div class="instruction_order-box instruction_order-box_second">
+          <img src="img/icon-check.svg" alt="check" class="instruction_order-icon">
+
+          <div class="instruction_order-text">
+            <p><span class="instruction_order-text_bold">2. &nbsp;</span>Подтверждение заказа</p>
+          </div>
+        </div>
+
+        <img src="img/arrow-long.svg" alt="arrow" class="instruction_order-arrow instruction_order-arrow_second">
+
+        <div class="instruction_order-box instruction_order-box_third">
+          <img src="img/icon-car.svg" alt="phone" class="instruction_order-icon">
+
+          <div class="instruction_order-text">
+            <p><span class="instruction_order-text_bold">3. &nbsp;</span>Доставка товара</p>
+          </div>
+        </div>
+
+        <img src="img/arrow-long.svg" alt="arrow" class="instruction_order-arrow">
+
+        <div class="instruction_order-box instruction_order-box_last">
+          <img src="img/icon-wallet.svg" alt="phone" class="instruction_order-icon">
+
+          <div class="instruction_order-text">
+            <p><span class="instruction_order-text_bold">4. &nbsp;</span>Оплата товара при получении, либо предоплата побезналичному расчету до п. 3</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="info__header">
+      <hr class="info__header_line">
+    </div>
+
+    <div class="info__wrapper">
+      <div class="info__wrapper-article">
+        <div class="info__wrapper-article-text"> 
+          Интернет магазин Хомиру поможет вам в выборе оборудования для  <span class="info__wrapper-article-text_orange"> IP телефонии</span> - которая активно используется как в бизнесе для общения с клиентами, партнёрами, поставщиками и инвесторами по всему миру, так и в повседневной жизни, для разговоров с друзьями и близкими в других городах. Важными преимуществом использования айпи телефона вместо обычного, является на порядок более низкая цена соединения. Звонок в регион, расположенный за несколько тысяч километров от вас, может обойтись намного дешевле, чем разговор по сотовому телефону в пределах города.
+          <h3>&nbsp;</h3>
+          <p class="info__wrapper-article-text info__wrapper-article-text_hidden">Для <span class="info__wrapper-article-text_orange">подключения к услугам IP-телефонии</span> требуется только стабильный выход в интернет и устройство коммуникации, например, компьютер с гарнитурой или ip телефон.</p>
+        </div>
+      </div>
+
+      <div class="info__wrapper-article">
+        <div class="info__wrapper-article-text">
+          Наш магазин айпи телефонии Homy предлагает <span class="info__wrapper-article-text_orange">полный спектр решений</span> для бизнеса и частных лиц в сфере организации современной связи (в том числе Skype телефоны и SIP телефоны). IP телефоны очень просты в использовании, так как применяется привычный всем, практически естественный интерфейс обычного телефона. Для работы с ним не требуется каких-либо специальных навыков или дополнительных операций: достаточно просто выполнить подключение и <span class="info__wrapper-article-text_orange">конфигурирование устройства</span> и положить его на то место, где ранее лежал ваш городской телефон. С этого момента вы и ваши сотрудники можете свободно пользоваться дешевой и защищённой связью.
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer__info">
+      <div class="footer__info_wrapper">
+        <div class="footer__info_wrapper_rights">
+          <div>
+            <div class="footer__info_wrapper_rights_title">
+              <span>ho</span>
+              <span class="footer__info_wrapper_rights_title_orange">my</span>
+              <span>ru</span>
+            </div>
+
+            <div class="footer__info_wrapper_rights_subtitle">
+              <span>оборудование и решение для voip</span>
+            </div>
+          </div>
+
+          <div>
+            <p class="footer__info_wrapper_rights_text">© ХомиРу, 2006-2016 <br> Оборудование и решения для VoIP</p>
+          </div>
+
+          <div>
+            <p class="footer__info_wrapper_rights_text">Перепечатка материалов возможна только с активной ссылкой на homy.ru</p>
+          </div>
+        </div>
+
+        <div class="footer__info_wrapper_adress">
+          <span>г. Москва, Зеленоград,</span>
+          <span>Панфиловский пр., дом 8, строение 1</span>
+          <a class="footer__info_wrapper_adress_link">Схема проезда</a>
+        </div>
+
+        <div class="footer__info_wrapper_nav">
+          <a href="#" class="footer__info_wrapper_nav_link">Доставка и оплата</a>
+          <a href="#" class="footer__info_wrapper_nav_link">Гарантии и возврат</a>
+          <a href="#" class="footer__info_wrapper_nav_link">Техподдержка</a>
+          <a href="#" class="footer__info_wrapper_nav_link">Контакты</a>
+
+          <div class="footer__info_wrapper_nav_call">
+            <img src="img/icon-connection.svg" alt="connection" class="footer__info_wrapper_nav_call_icon">
+
+            <div class="footer__info_wrapper_nav_call-text">
+              <a href="#" class="footer__info_wrapper_nav_call-text-item">обратный</a>
+              <a href="#" class="footer__info_wrapper_nav_call-text-item">звонок</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__info_wrapper_contact">
+          <div class="footer__info_wrapper_contact_call">
+            <img src="img/icon-connection.svg" alt="connection" class="footer__info_wrapper_contact_call_icon">
+
+            <div class="footer__info_wrapper_contact_call-text">
+              <a href="#" class="footer__info_wrapper_contact_call-text-item">обратный</a>
+              <a href="#" class="footer__info_wrapper_contact_call-text-item">звонок</a>
+            </div>
+          </div>
+
+          <div class="footer__info_wrapper_contact-info">
+            <div class="footer__info_wrapper_contact-info_box">
+              <span class="footer__info_wrapper_contact-info_phone">+7 495 2-55-44-66</span>
+
+              <span>(пн-пт с 9 до 18 ч)</span>
+    
+              <div>
+                <a href="#"><img src="img/icon-whatsapp.svg" alt="icon-whatsapp"></a>
+                <a href="#"><img src="img/icon-viber.svg" alt="icon-viber"></a>
+                <span>+7 903 111-11-11</span>
+              </div>
+    
+              <a href="#" class="footer__info_wrapper_contact-info_link">info@homy.ru</a>
+    
+              <div class="footer__info_wrapper_contact-info_skype-wrapper">
+                <a href="#" class="footer__info_wrapper_contact-info_skype-box"><img src="img/icon-skype.svg" alt="icon-whatsapp" class="footer__info_wrapper_contact-info_skype"></a>
+                <a href="#" class="footer__info_wrapper_contact-info_skype-wrapper_link">skype-on.06</a>
+              </div>
+            </div>
+
+            <div class="footer__info_wrapper_contact-info_social">
+              <img src="img/icon-social.svg" alt="social">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__info-mobile">
+      <div class="footer__info-mobile-wrapper">
+        <div class="footer__info-mobile-wrapper_adress">
+          <div class="footer__info-mobile-wrapper_adress_item">
+            <span>Доставка и оплата</span>
+
+            <a href="#"><img src="img/arrow-white.svg" alt="arrow-white"></a>
+          </div>
+
+          <div class="footer__info-mobile-wrapper_adress_item">
+            <span>Гарантия и возврат</span>
+
+            <a href="#"><img src="img/arrow-white.svg" alt="arrow-white"></a>
+          </div>
+
+          <div class="footer__info-mobile-wrapper_adress_item">
+            <span>Техподдержка</span>
+
+            <a href="#"><img src="img/arrow-white.svg" alt="arrow-white"></a> 
+          </div>
+
+          <div class="footer__info-mobile-wrapper_adress_item">
+            <span>Контакты</span>
+
+            <a href="#"><img src="img/arrow-white.svg" alt="arrow-white"></a>
+          </div>
+        </div>
+
+        <div class="footer__info-mobile-wrapper_info">
+          <div class="footer__info_wrapper_rights">
+            <div>
+              <div class="footer__info_wrapper_rights_title">
+                <span>ho</span>
+                <span class="footer__info_wrapper_rights_title_orange">my</span>
+                <span>ru</span>
+              </div>
+  
+              <div class="footer__info_wrapper_rights_subtitle">
+                <span>оборудование и решение для voip</span>
+              </div>
+            </div>
+  
+            <div>
+              <p class="footer__info_wrapper_rights_text">© ХомиРу, 2006-2016 <br> Оборудование и решения для VoIP</p>
+            </div>
+  
+            <div>
+              <p class="footer__info_wrapper_rights_text">Перепечатка материалов возможна только с активной ссылкой на homy.ru</p>
+            </div>
+          </div>
+
+          <div class="footer__info_wrapper_contact-info">
+            <div class="footer__info_wrapper_contact-info_box">
+              <span class="footer__info_wrapper_contact-info_phone">+7 495 2-55-44-66</span>
+      
+              <div>
+                <a href="#"><img src="img/icon-whatsapp.svg" alt="icon-whatsapp"></a>
+                <a href="#"><img src="img/icon-viber.svg" alt="icon-viber"></a>
+                <span>+7 903 111-11-11</span>
+              </div>
+        
+              <div class="footer__info_wrapper_contact-info_skype-wrapper">
+                <a href="#" class="footer__info_wrapper_contact-info_skype-box"><img src="img/icon-skype.svg" alt="icon-whatsapp" class="footer__info_wrapper_contact-info_skype"></a>
+                <a href="#" class="footer__info_wrapper_contact-info_skype-wrapper_link">skype-on.06</a>
+              </div>
+
+              <a href="#" class="footer__info_wrapper_contact-info_link">info@homy.ru</a>
+            </div>
+  
+            <div class="footer__info_wrapper_contact-info_social">
+              <img src="img/icon-social.svg" alt="social">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__descr">
+      <div class="footer__descr_wrapper">
+        <p class="footer__descr_wrapper_text">
+          Все описания и характеристики товаров носят информационный характер и могут отличаться от представленных в технической документации производителей. Уточняйте информацию у наших менеджеров.
+        </p>
+
+        <img src="img/footer-img.png" alt="footer" class="footer__descr_wrapper_img">
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/topMenu.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/news.js"></script>
+  <script src="js/newsSlider.js"></script>
+  <script defer src="js/novetly.js"></script>
+  <script src="js/novetlySlider.js"></script>
+  <script defer src="js/recomm.js"></script>
+  <script src="js/recommSlider.js"></script>
+  <script src="js/sale.js"></script>
+  <script src="js/saleSlider.js"></script>
+  <script src="js/promotion.js"></script>
+  <script src="js/purchases.js"></script>
+  <script src="js/basket.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+a {
+  text-decoration: none;
+  color: $color-blue-marguerite;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+*:focus {
+  outline: none;
+}
+
